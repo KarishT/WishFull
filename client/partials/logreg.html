@@ -1,0 +1,10 @@
+<div ng-controller='sessionController'>
+	<h3>WishFull</h3>
+	<h5>Lets spread happiness this Thanksgiving!</h5>
+	<form ng-submit='logReg()'>
+		<input type='text' ng-model='newUser.name' placeholder="Enter username"><br>
+		<input type="radio" ng-model = 'newUser.role' name = "donor" value="donor" checked> I wanna fulfill a wish! <br>
+	 	<input type="radio" ng-model = 'newUser.role' name="donee" value="donee"> I have a wish..<br>
+		<input type='submit' value='Log in or Register'>
+	</form>
+</div>
